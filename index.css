@@ -1,12 +1,13 @@
 body {
   margin: 0;
+  background-image: url('http://www.hdwallpaper.nu/wp-content/uploads/2016/07/toy_story_wallpaper29989.jpg');
   font-family: monospace;
 }
 
 #toy-header {
   display: flex;
   justify-content: center;
-  background: #515DA2;
+  background: #ffffff;
   opacity: .8;
   height: 7rem;
   padding: 1rem;
@@ -22,6 +23,7 @@ body {
 }
 
 .card {
+  background-color: #fff;
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
@@ -29,7 +31,9 @@ body {
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
+  box-shadow: 3px 4px #e04b52;
+  border-radius: 40%;
+  opacity: .85;
 }
 
 .toy-avatar {
